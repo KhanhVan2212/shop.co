@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const TopSelling = () => {
@@ -8,7 +9,7 @@ const TopSelling = () => {
         TOP SELLING
       </h1>
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6 px-4 sm:px-6">
-        <div>
+      <Link href={"/product-detail"}> <div>
           <Image
             src="/images/image 7.png"
             alt="T-SHIRT"
@@ -85,8 +86,8 @@ const TopSelling = () => {
             </span>
           </div>
           <h2 className="text-[16px] sm:text-[20px] font-bold">$120</h2>
-        </div>
-        <div>
+        </div></Link>
+        <Link href={"/product-detail"}> <div>
           <Image
             src="/images/image 7.png"
             alt="T-SHIRT"
@@ -163,8 +164,8 @@ const TopSelling = () => {
             </span>
           </div>
           <h2 className="text-[16px] sm:text-[20px] font-bold">$120</h2>
-        </div>
-        <div>
+        </div></Link>
+        <Link href={"/product-detail"}> <div>
           <Image
             src="/images/image 7.png"
             alt="T-SHIRT"
@@ -241,8 +242,8 @@ const TopSelling = () => {
             </span>
           </div>
           <h2 className="text-[16px] sm:text-[20px] font-bold">$120</h2>
-        </div>
-        <div>
+        </div></Link>
+        <Link href={"/product-detail"}> <div>
           <Image
             src="/images/image 7.png"
             alt="T-SHIRT"
@@ -319,7 +320,7 @@ const TopSelling = () => {
             </span>
           </div>
           <h2 className="text-[16px] sm:text-[20px] font-bold">$120</h2>
-        </div>
+        </div></Link>
       </div>
       <div className="flex justify-center items-center mt-8 sm:mt-10 mb-16 sm:mb-20">
         <button className="w-[160px] h-[40px] sm:w-[180px] sm:h-[48px] bg-[#0000001A] rounded-2xl text-[14px] sm:text-[16px] font-medium">
